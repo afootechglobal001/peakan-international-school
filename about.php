@@ -7,21 +7,21 @@
 <head>
     <?php include 'meta.php'?>
     <title>About <?php echo $thename?></title>
-    
+
     <meta name="keywords"
-        content="<?php echo $thename?>, Peakan International School contact, Peakan International School address, best schools in Ikenne, top private schools in Ogun State, international schools in Nigeria, Peakan International School phone number, Peakan International School email, private co-educational school Ogun, Peakan International School admission enquiry, 53/55 Awolowo Avenue Ikenne-Remo Ogun State" />
-    
+        content="<?php echo $thename?>, Peakan International School contact, best school in ikenne Remo, Best School in Ikenne Local Government Ogun State, Peakan International School address, best schools in Ikenne, top private schools in Ogun State, international schools in Nigeria, Peakan International School phone number, Peakan International School email, private co-educational school Ogun, Peakan International School admission enquiry, 53/55 Awolowo Avenue Ikenne-Remo Ogun State" />
+
     <meta name="description"
         content="At Peakan International School, we are committed to providing holistic, high-quality education that nurtures intellectual, moral, and social development — preparing students with the skills, discipline, and values needed to excel in life." />
 
     <meta property="og:title" content="About <?php echo $thename?>" />
-    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/default.jpg" />
     <meta property="og:description"
         content="Peakan International School offers world-class education that promotes intellectual growth, discipline, integrity, and the fear of God, helping students thrive academically and socially." />
 
     <meta name="twitter:title" content="About <?php echo $thename?>" />
     <meta name="twitter:card" content="<?php echo $thename?>" />
-    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/default.jpg" />
     <meta name="twitter:description"
         content="Discover Peakan International School — a private co-educational institution in Ikenne-Remo, Ogun State, dedicated to academic excellence, character building, and global standards of education." />
 </head>
@@ -77,9 +77,17 @@
                         <div class="content-div" data-aos="flip-in" data-aos-duration="1400">
                             <div><span class="top-text">ABOUT US</span></div>
                             <h2>Welcome to <span><?php echo $thename?></span></h2>
-                            <p>Peak International School is a private co-educational school established to provide quality all-round education of international standard to meet the needs of individual student between the ages of 2 and 18years. Emphasis is placed on sound intellectual development and impeccable character through diligence, honesty, discipline, integrity, respect for others and above all, the fear of God.</p>
-                            <p>The curriculum embarked by the school is practical, functional, stimulating and innovative. it is designed to bring the Nigeria curriculum to an international standard and prepare the students for all exams. Learning is made meaningful and interesting by using appropriate instructional material and well equipped and modern laboratories. </p>
-                            <p>Our Mission is to produce scholars who will excel in moral and academic standards, standing out from the crowd.</p>
+                            <p>Peak International School is a private co-educational school established to provide
+                                quality all-round education of international standard to meet the needs of individual
+                                student between the ages of 2 and 18years. Emphasis is placed on sound intellectual
+                                development and impeccable character through diligence, honesty, discipline, integrity,
+                                respect for others and above all, the fear of God.</p>
+                            <p>The curriculum embarked by the school is practical, functional, stimulating and
+                                innovative. it is designed to bring the Nigeria curriculum to an international standard
+                                and prepare the students for all exams. Learning is made meaningful and interesting by
+                                using appropriate instructional material and well equipped and modern laboratories. </p>
+                            <p>Our Mission is to produce scholars who will excel in moral and academic standards,
+                                standing out from the crowd.</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +114,8 @@
                                     <h4>OUR MISSION</h4>
                                 </div>
                             </div>
-                            <p>To produce scholars who will excel in moral and academic standards, standing out from the crowd.</p>
+                            <p>To produce scholars who will excel in moral and academic standards, standing out from the
+                                crowd.</p>
                         </div>
 
                         <div class="text-div value-text" data-aos="fade-in" data-aos-duration="1200">
@@ -116,7 +125,8 @@
                                 </div>
                             </div>
                             <ul>
-                                <li><strong>Excellence</strong> – Academic excellence, striving for academic achievement, and a love for learning.</li>
+                                <li><strong>Excellence</strong> – Academic excellence, striving for academic
+                                    achievement, and a love for learning.</li>
 
                                 <li><strong>Discipline</strong> – We instill self-control, responsibility, and a strong
                                     work ethic in our

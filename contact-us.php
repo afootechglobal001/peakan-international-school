@@ -7,21 +7,21 @@
 <head>
     <?php include 'meta.php'?>
     <title><?php echo $thename?> | Contact Us | 24/7 Support</title>
-    
+
     <meta name="keywords"
-        content="<?php echo $thename?>, Peakan International School contact, Peakan International School address, best schools in Ikenne contact, private schools Ogun State phone number, international schools in Nigeria contact, Peakan School email, Ikenne-Remo Ogun State schools near me, Peakan International School admission enquiry, Peakan International School location, how to reach Peakan International School" />
-    
+        content="<?php echo $thename?>, Peakan International School contact, best school in ikenne Remo, Best School in Ikenne Local Government Ogun State, Peakan International School address, best schools in Ikenne contact, private schools Ogun State phone number, international schools in Nigeria contact, Peakan School email, Ikenne-Remo Ogun State schools near me, Peakan International School admission enquiry, Peakan International School location, how to reach Peakan International School" />
+
     <meta name="description"
         content="Get in touch with Peakan International School, located at 53/55 Awolowo Avenue, Ikenne-Remo, Ogun State, Nigeria. Contact us for admission enquiries, school visits, or general information about our basic and college education programs." />
 
     <meta property="og:title" content="<?php echo $thename?> | Contact Us | 24/7 Support" />
-    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/default.jpg" />
     <meta property="og:description"
         content="Reach out to Peakan International School in Ikenne-Remo, Ogun State. We’re available 24/7 to assist with admissions, school tours, and all enquiries about our academic programs." />
 
     <meta name="twitter:title" content="<?php echo $thename?> | Contact Us | 24/7 Support" />
     <meta name="twitter:card" content="<?php echo $thename?>" />
-    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/default.jpg" />
     <meta name="twitter:description"
         content="Contact Peakan International School today for admission details, visit scheduling, and inquiries about our world-class education in Ikenne-Remo, Ogun State." />
 </head>
@@ -108,9 +108,7 @@
 
             <section class="map-body-div">
                 <div class="map-back-div">
-                    <iframe 
-                        allowfullscreen="" 
-                        class="google-map" 
+                    <iframe allowfullscreen="" class="google-map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.079347505043!2d3.7036517!3d6.8810977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bd84b396f8495%3A0xa4ac185e0b2442d3!2sPEAKAN%20International%20School!5e0!3m2!1sen!2sng!4v1761028900262!5m2!1sen!2sng">
                     </iframe>
                 </div>

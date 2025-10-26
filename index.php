@@ -9,19 +9,19 @@
     <title><?php echo $thename ?> | Quality Basic & College Education in Ogun State</title>
 
     <meta name="keywords"
-        content="<?php echo $thename ?>, Peakan International School, best schools in Nigeria, top private schools in Ogun State, best schools in Ikenne, private schools in Ogun, international schools Nigeria, quality education Ogun, top secondary schools Ogun State, Montessori and college education, co-educational schools Nigeria, Peakan Schools" />
+        content="<?php echo $thename ?>, Peakan International School, best schools in Nigeria, best school in ikenne Remo, Best School in Ikenne Local Government Ogun State, top private schools in Ogun State, best schools in Ikenne, private schools in Ogun, international schools Nigeria, quality education Ogun, top secondary schools Ogun State, Montessori and college education, co-educational schools Nigeria, Peakan Schools" />
 
     <meta name="description"
         content="Peakan International School, located at 53/55 Awolowo Avenue, Ikenne-Remo, Ogun State, is a private co-educational school dedicated to providing world-class basic and college education with a strong emphasis on academic excellence, discipline, and moral values." />
 
     <meta property="og:title" content="<?php echo $thename ?> | Quality Basic & College Education in Ogun State" />
-    <meta property="og:image" content="<?php echo $website_url ?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta property="og:image" content="<?php echo $website_url ?>/all-images/plugin-pix/default.jpg" />
     <meta property="og:description"
         content="Peakan International School in Ikenne-Remo offers exceptional basic and college education with international standards, nurturing excellence, discipline, and the fear of God." />
 
     <meta name="twitter:title" content="<?php echo $thename ?> | Quality Basic & College Education in Ogun State" />
     <meta name="twitter:card" content="<?php echo $thename ?>" />
-    <meta name="twitter:image" content="<?php echo $website_url ?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta name="twitter:image" content="<?php echo $website_url ?>/all-images/plugin-pix/default.jpg" />
     <meta name="twitter:description"
         content="Peakan International School provides quality all-round education for children aged 2–18 years, focusing on excellence, discipline, and sound character." />
 </head>
@@ -41,7 +41,8 @@
                                     PEAKAN INTERNATIONAL SCHOOL</strong></span></div>
                     </div>
                     <h1>Building excellence on </br>#<span id="page-title"></span></h1>
-                    <p>Our Mission is to produce scholars who will excel in moral and academic standards, standing out from the crowd.</p>
+                    <p>Our Mission is to produce scholars who will excel in moral and academic standards, standing out
+                        from the crowd.</p>
 
                     <div class="btn-div">
 
@@ -63,55 +64,55 @@
         </div>
 
         <script type="text/javascript">
-            // List of sentences
-            var _CONTENT = ["Future Leaders", "Academic Distinction", "Innovative Minds", "Global Competence",
-                "Moral Integrity", "Lifelong Learning"
-            ];
-            // Current sentence being processed
-            var _PART = 0;
-            // Character number of the current sentence being processed 
-            var _PART_INDEX = 0;
-            // Element that holds the text
-            var _ELEMENT = document.querySelector("#page-title");
-            // Implements typing effect
-            function Type() {
-                var text = _CONTENT[_PART].substring(0, _PART_INDEX + 1);
-                _ELEMENT.innerHTML = text;
-                _PART_INDEX++;
+        // List of sentences
+        var _CONTENT = ["Future Leaders", "Academic Distinction", "Innovative Minds", "Global Competence",
+            "Moral Integrity", "Lifelong Learning"
+        ];
+        // Current sentence being processed
+        var _PART = 0;
+        // Character number of the current sentence being processed 
+        var _PART_INDEX = 0;
+        // Element that holds the text
+        var _ELEMENT = document.querySelector("#page-title");
+        // Implements typing effect
+        function Type() {
+            var text = _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+            _ELEMENT.innerHTML = text;
+            _PART_INDEX++;
 
-                // If full sentence has been displayed then start to delete the sentence after some time
-                if (text === _CONTENT[_PART]) {
-                    clearInterval(_INTERVAL_VAL);
-                    setTimeout(function() {
-                        _INTERVAL_VAL = setInterval(Delete, 2);
-                    }, 5000);
-                }
+            // If full sentence has been displayed then start to delete the sentence after some time
+            if (text === _CONTENT[_PART]) {
+                clearInterval(_INTERVAL_VAL);
+                setTimeout(function() {
+                    _INTERVAL_VAL = setInterval(Delete, 2);
+                }, 5000);
             }
-            // Implements deleting effect
-            function Delete() {
-                var text = _CONTENT[_PART].substring(0, _PART_INDEX - 1);
-                _ELEMENT.innerHTML = text;
-                _PART_INDEX--;
+        }
+        // Implements deleting effect
+        function Delete() {
+            var text = _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+            _ELEMENT.innerHTML = text;
+            _PART_INDEX--;
 
-                // If sentence has been deleted then start to display the next sentence
-                if (text === '') {
-                    clearInterval(_INTERVAL_VAL);
+            // If sentence has been deleted then start to display the next sentence
+            if (text === '') {
+                clearInterval(_INTERVAL_VAL);
 
-                    // If last sentence then display the first one, else move to the next
-                    if (_PART == (_CONTENT.length - 1))
-                        _PART = 0;
-                    else
-                        _PART++;
-                    _PART_INDEX = 0;
+                // If last sentence then display the first one, else move to the next
+                if (_PART == (_CONTENT.length - 1))
+                    _PART = 0;
+                else
+                    _PART++;
+                _PART_INDEX = 0;
 
-                    // Start to display the next sentence after some time
-                    setTimeout(function() {
-                        _INTERVAL_VAL = setInterval(Type, 50);
-                    }, 100);
-                }
+                // Start to display the next sentence after some time
+                setTimeout(function() {
+                    _INTERVAL_VAL = setInterval(Type, 50);
+                }, 100);
             }
-            // Start the typing effect on load
-            _INTERVAL_VAL = setInterval(Type, 50);
+        }
+        // Start the typing effect on load
+        _INTERVAL_VAL = setInterval(Type, 50);
         </script>
     </section>
 
@@ -119,7 +120,7 @@
         <div class="event-body-div">
             <div class="event-body-div-in" id="fetchindexUpcomingEvent">
                 <script>
-                    _fetchindexUpcomingEvent();
+                _fetchindexUpcomingEvent();
                 </script>
             </div>
         </div>
@@ -149,9 +150,17 @@
                         <div class="content-div" data-aos="flip-in" data-aos-duration="1400">
                             <div><span class="top-text">ABOUT US</span></div>
                             <h2>Welcome to <span><?php echo $thename ?></span></h2>
-                            <p>Peak International School is a private co-educational school established to provide quality all-round education of international standard to meet the needs of individual student between the ages of 2 and 18years. Emphasis is placed on sound intellectual development and impeccable character through diligence, honesty, discipline, integrity, respect for others and above all, the fear of God.</p>
-                            <p>The curriculum embarked by the school is practical, functional, stimulating and innovative. it is designed to bring the Nigeria curriculum to an international standard and prepare the students for all exams. Learning is made meaningful and interesting by using appropriate instructional material and well equipped and modern laboratories. </p>
-                            <p>Our Mission is to produce scholars who will excel in moral and academic standards, standing out from the crowd.</p>
+                            <p>Peak International School is a private co-educational school established to provide
+                                quality all-round education of international standard to meet the needs of individual
+                                student between the ages of 2 and 18years. Emphasis is placed on sound intellectual
+                                development and impeccable character through diligence, honesty, discipline, integrity,
+                                respect for others and above all, the fear of God.</p>
+                            <p>The curriculum embarked by the school is practical, functional, stimulating and
+                                innovative. it is designed to bring the Nigeria curriculum to an international standard
+                                and prepare the students for all exams. Learning is made meaningful and interesting by
+                                using appropriate instructional material and well equipped and modern laboratories. </p>
+                            <p>Our Mission is to produce scholars who will excel in moral and academic standards,
+                                standing out from the crowd.</p>
                             <a href="<?php echo $website_url ?>/about" title="Read More">
                                 <button class="btn" title="Read More">Read More <i
                                         class="bi-arrow-right"></i></button></a>
@@ -217,7 +226,7 @@
                 </div>
             </div>
             <script>
-                _progressBar();
+            _progressBar();
             </script>
         </section>
 
@@ -246,7 +255,7 @@
                             <div class="cg-carousel__container" id="js-carousel_1">
                                 <div class="cg-carousel__track js-carousel__track" id="fetchIndexClassGallery">
                                     <script>
-                                        _fetchIndexClassGallery();
+                                    _fetchIndexClassGallery();
                                     </script>
                                 </div>
                             </div>
@@ -256,27 +265,27 @@
             </div>
 
             <script>
-                window['carousel_options_1'] = ({
-                    items: 4,
-                    margin: 30,
-                    loop: true,
-                    dots: true,
-                    autoplayHoverPause: true,
-                    smartSpeed: 650,
-                    autoplay: true,
-                    breakpoints: {
-                        700: {
-                            slidesPerView: 2,
-                        },
-                        1000: {
-                            slidesPerView: 3,
-                        },
-                        1300: {
-                            slidesPerView: 4,
-                        }
-
+            window['carousel_options_1'] = ({
+                items: 4,
+                margin: 30,
+                loop: true,
+                dots: true,
+                autoplayHoverPause: true,
+                smartSpeed: 650,
+                autoplay: true,
+                breakpoints: {
+                    700: {
+                        slidesPerView: 2,
+                    },
+                    1000: {
+                        slidesPerView: 3,
+                    },
+                    1300: {
+                        slidesPerView: 4,
                     }
-                });
+
+                }
+            });
             </script>
         </section>
 
@@ -297,7 +306,7 @@
                             </div>
                             <div class="faq-toggle-back" id="fetchIndexFaq">
                                 <script>
-                                    _fetchIndexFaq();
+                                _fetchIndexFaq();
                                 </script>
                                 <div class="content-loading-div">
                                     <img src="<?php echo $website_url ?>/all-images/images/spinner.gif" alt="Loading" />
@@ -329,7 +338,7 @@
 
                     <div class="teachers-back-div" id="fetchIndexTeachers">
                         <script>
-                            _fetchIndexTeachers();
+                        _fetchIndexTeachers();
                         </script>
                     </div>
                 </div>
@@ -355,11 +364,12 @@
                             <div class="cg-carousel__container" id="js-carousel_2">
                                 <div class="cg-carousel__track js-carousel__track" id="fetchAllTestimony">
                                     <script>
-                                        _fetchAllTestimony();
+                                    _fetchAllTestimony();
                                     </script>
 
                                     <div class="content-loading-div">
-                                        <img src="<?php echo $website_url ?>/all-images/images/spinner.gif" alt="Loading" />
+                                        <img src="<?php echo $website_url ?>/all-images/images/spinner.gif"
+                                            alt="Loading" />
                                     </div>
                                 </div>
                             </div>
@@ -375,27 +385,27 @@
                 </div>
             </div>
             <script>
-                window['carousel_options_2'] = ({
-                    items: 4,
-                    margin: 30,
-                    loop: true,
-                    dots: true,
-                    autoplayHoverPause: true,
-                    smartSpeed: 650,
-                    autoplay: true,
-                    breakpoints: {
-                        700: {
-                            slidesPerView: 2,
-                        },
-                        900: {
-                            slidesPerView: 2,
-                        },
-                        1300: {
-                            slidesPerView: 3,
-                        }
-
+            window['carousel_options_2'] = ({
+                items: 4,
+                margin: 30,
+                loop: true,
+                dots: true,
+                autoplayHoverPause: true,
+                smartSpeed: 650,
+                autoplay: true,
+                breakpoints: {
+                    700: {
+                        slidesPerView: 2,
+                    },
+                    900: {
+                        slidesPerView: 2,
+                    },
+                    1300: {
+                        slidesPerView: 3,
                     }
-                });
+
+                }
+            });
             </script>
         </section>
 
@@ -416,7 +426,7 @@
 
                     <div class="blog-back-div" id="fetchIndexBlog">
                         <script>
-                            _fetchIndexBlog();
+                        _fetchIndexBlog();
                         </script>
 
                         <div class="content-loading-div">
