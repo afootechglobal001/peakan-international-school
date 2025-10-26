@@ -1,0 +1,132 @@
+<?php include '../config/constants.php';?>
+<?php include '../config/functions.php';?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http: //www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <?php include '../meta.php'?>
+    <title><?php echo $thename?> | Gallery | Discover Our Learning Journey</title>
+    
+    <meta name="keywords"
+        content="<?php echo $thename?>, Peakan International School gallery, Peakan International School Ikenne photos, school events Ogun State images, private schools Ogun gallery, international schools in Nigeria visuals, Peakan School classrooms, Ikenne-Remo education highlights, Peakan International School activities, safe learning environment Ogun, creativity-focused gallery, holistic education photos, innovative teaching visuals, nurturing creativity images, collaborative learning highlights, academic excellence snapshots" />
+    
+    <meta name="description"
+        content="Explore the gallery of Peakan International School in Ikenne-Remo, Ogun State. Discover inspiring moments of learning, creativity, innovation, and collaboration in a safe and nurturing environment." />
+
+    <meta property="og:title" content="<?php echo $thename?> | Gallery | Discover Our Learning Journey" />
+    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta property="og:description"
+        content="Explore the gallery of Peakan International School in Ikenne-Remo, Ogun State — showcasing vibrant learning experiences, cultural events, and the joy of academic and moral excellence." />
+
+    <meta name="twitter:title" content="<?php echo $thename?> | Gallery | Discover Our Learning Journey" />
+    <meta name="twitter:card" content="<?php echo $thename?>" />
+    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta name="twitter:description"
+        content="Discover Peakan International School’s gallery — highlighting creativity, collaboration, and student excellence in a warm, value-driven learning community in Ikenne-Remo, Ogun State." />
+</head>
+
+
+
+<body>
+    <?php  include '../header.php'?>
+
+    <section class="other-pages" data-aos="fade-in" data-aos-duration="900">
+        <div class="other-pages-back-div">
+            <div class="top-title">
+                <div class="div-in">
+                    <ul>
+                        <a href="<?php echo $website_url?>">
+                            <li title="Home">Home <i class="bi-caret-right-fill"></i></li>
+                        </a>
+                        <a href="<?php echo $website_url?>/gallery">
+                            <li title="Our Gallery">Our Gallery</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-content-div" data-aos="fade-in" data-aos-duration="900">
+                <h1 data-aos="fade-in" data-aos-duration="800"><span>Our Gallery</span></h1>
+                <p>At <?php echo $thename?>, we believe in creating unforgettable memories. Choose from our array of
+                    galleries.</p>
+
+                <?php $callclass->_otherPagesBtn($website_url);?>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="others-pg-content-div">
+        <section class="body-div net-bg-br">
+            <div class="body-div-in">
+                <div class="main-gallery-back-div" id="fetchAllGallery">
+                    <script>
+                    _fetchAllGallery();
+                    </script>
+                </div>
+            </div>
+        </section>
+        <section class="body-div net-bg-tr">
+            <div class="body-div-in">
+                <div class="main-pages-back-div">
+                    <div class="title-div" data-aos="fade-in" data-aos-duration="1200">
+                        <div class="top-div">
+                            <div><span class="top-title">OUR CLASSES</span></div>
+                            <h2>Our Popular Classes </h2>
+                            <p>Explore our most sought-after classes designed to inspire and engage. Join us and
+                                discover a world of learning opportunities!"</p>
+                        </div>
+
+                        <div class="carousel-title-btn-div">
+                            <button class="button" title="Previous" id="js-carousel__prev_1"><i
+                                    class="bi-chevron-double-left"></i></button>
+                            <button class="button" title="Next" id="js-carousel__next_1"><i
+                                    class="bi-chevron-double-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="main-gallery-back-div">
+                        <div class="cg-carousel">
+                            <div class="cg-carousel__container" id="js-carousel_1">
+                                <div class="cg-carousel__track js-carousel__track" id="fetchIndexClassGallery">
+                                    <script>
+                                    _fetchIndexClassGallery();
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+            window['carousel_options_1'] = ({
+                items: 4,
+                margin: 30,
+                loop: true,
+                dots: true,
+                autoplayHoverPause: true,
+                smartSpeed: 650,
+                autoplay: true,
+                breakpoints: {
+                    700: {
+                        slidesPerView: 2,
+                    },
+                    1000: {
+                        slidesPerView: 3,
+                    },
+                    1300: {
+                        slidesPerView: 4,
+                    }
+
+                }
+            });
+            </script>
+        </section>
+
+
+        <?php include '../footer.php'?>
+    </section>
+</body>
+
+</html>
