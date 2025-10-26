@@ -7,21 +7,21 @@
 <head>
     <?php include '../meta.php'?>
     <title><?php echo $thename?> | Gallery | Discover Our Learning Journey</title>
-    
+
     <meta name="keywords"
-        content="<?php echo $thename?>, Peakan International School gallery, Peakan International School Ikenne photos, school events Ogun State images, private schools Ogun gallery, international schools in Nigeria visuals, Peakan School classrooms, Ikenne-Remo education highlights, Peakan International School activities, safe learning environment Ogun, creativity-focused gallery, holistic education photos, innovative teaching visuals, nurturing creativity images, collaborative learning highlights, academic excellence snapshots" />
-    
+        content="<?php echo $thename?>, Peakan International School gallery, Peakan International School Ikenne photos, best school in ikenne Remo, Best School in Ikenne Local Government Ogun State, school events Ogun State images, private schools Ogun gallery, international schools in Nigeria visuals, Peakan School classrooms, Ikenne-Remo education highlights, Peakan International School activities, safe learning environment Ogun, creativity-focused gallery, holistic education photos, innovative teaching visuals, nurturing creativity images, collaborative learning highlights, academic excellence snapshots" />
+
     <meta name="description"
         content="Explore the gallery of Peakan International School in Ikenne-Remo, Ogun State. Discover inspiring moments of learning, creativity, innovation, and collaboration in a safe and nurturing environment." />
 
     <meta property="og:title" content="<?php echo $thename?> | Gallery | Discover Our Learning Journey" />
-    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta property="og:image" content="<?php echo $website_url?>/all-images/plugin-pix/default.jpg" />
     <meta property="og:description"
         content="Explore the gallery of Peakan International School in Ikenne-Remo, Ogun State — showcasing vibrant learning experiences, cultural events, and the joy of academic and moral excellence." />
 
     <meta name="twitter:title" content="<?php echo $thename?> | Gallery | Discover Our Learning Journey" />
     <meta name="twitter:card" content="<?php echo $thename?>" />
-    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/peakaninternationalschool.jpg" />
+    <meta name="twitter:image" content="<?php echo $website_url?>/all-images/plugin-pix/default.jpg" />
     <meta name="twitter:description"
         content="Discover Peakan International School’s gallery — highlighting creativity, collaboration, and student excellence in a warm, value-driven learning community in Ikenne-Remo, Ogun State." />
 </head>
